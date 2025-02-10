@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Green Sensei - The Lost Soul",
+        "th": "อาจารย์เขียว วิญญาณนิรนาม"
+      },
+      "image": "",
+      "effects": [
+        {
+          "name": "Nullifier",
+          "gp": 2,
+          "effect": "Declare effect before 'Reveal Phase' of any player turn, If you use the effect and this monster must get their own Guilty Point on the turn, Refuse to get the Guilty Point.",
+          "number_of_use": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Jam Bear - The Legendary Thief",
+        "th": "หมีแยม ยอดนักฉก"
+      },
+      "image": "",
+      "effects": [
+        {
+          "name": "Swappadora",
+          "gp": 2,
+          "effect": "Declare this effect after combat phase, If your guilty number is at least more than 2 from opponent monster and you get another guilty point on this turn, You can swap the guilty point between yours and opponent monster.",
+          "number_of_use": 1
+        }
+      ]
+    }
+  ]
+}
