@@ -26,11 +26,11 @@ Board Game that each player uses their only one monster to fight and deal with t
 - Opponent select to reveal 1 of their cards to player.
 - Then player decides to "Fight" or "Dodge".
 - After that, All players reveal all their number cards.
-- **If Player selected "Fight"
+- **If Player selected "Fight"**
   - Player Number > Opponent Number: Opponent's Monster got 1 Guilty Point.
   - Opponent Number > Player Number: Player's Monster got 1 Guilty Point.
   - Player Number == Opponent Number: Return all numbers to deck shuffle and draw and reveal and decide once more. If this happen again the turn will end automatically.
-- **If Player selected "Dodge"
+- **If Player selected "Dodge"**
   - Player Number > Opponent Number: Player's Monster got 1 Guilty Point.
   - Opponent Number > Player Number: Opponent's Monster got 1 Guilty Point.
   - Player Number == Opponent Number: Return all numbers to deck shuffle and draw and reveal and decide once more. If this happen again the turn will end automatically.
