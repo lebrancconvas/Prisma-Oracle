@@ -54,6 +54,11 @@ Board Game that each player uses their only one monster to fight and deal with t
 ### Monster Data
 
 - Monster Name
+  - English Name
+  - Thai Name
 - Monster Image
-- Guilty Point
 - Effect(s) / Skill(s)
+  - Effect Name
+  - At lease Guilty Point when want to use.
+  - Effect
+  - Number of Using in one duel / match.
