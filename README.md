@@ -21,19 +21,25 @@ Board Game that each player uses their only one monster to fight and deal with t
 
 ### Player Turn
 
-- Opponent has their opportunity to draw 2 number cards first.
-- Then player draws their 2 number cards.
-- Opponent select to reveal 1 of their cards to player.
-- Then player decides to "Fight" or "Dodge".
-- After that, All players reveal all their number cards.
-- **If Player selected "Fight"**
+- **Draw Phase**
+  - Opponent has their opportunity to draw 2 number cards first.
+  - Then player draws their 2 number cards.
+- **Ajar Phase**
+  - Opponent select to reveal 1 of their cards to player.
+- **Decide Phase**
+  - Then player decides to "Fight" or "Dodge".
+- **Reveal Phase**
+  - After that, All players reveal all their number cards.
+- **If Player selected "Fight" (Combat Phase - Fight)**
   - Player Number > Opponent Number: Opponent's Monster got 1 Guilty Point.
   - Opponent Number > Player Number: Player's Monster got 1 Guilty Point.
   - Player Number == Opponent Number: Return all numbers to deck shuffle and draw and reveal and decide once more. If this happen again the turn will end automatically.
-- **If Player selected "Dodge"**
+- **If Player selected "Dodge" (Combat Phase - Dodge)**
   - Player Number > Opponent Number: Player's Monster got 1 Guilty Point.
   - Opponent Number > Player Number: Opponent's Monster got 1 Guilty Point.
   - Player Number == Opponent Number: Return all numbers to deck shuffle and draw and reveal and decide once more. If this happen again the turn will end automatically.
+- **End Phase**
+  - Turn Ending.
 
 ## Winning Condition
 
@@ -42,3 +48,12 @@ Board Game that each player uses their only one monster to fight and deal with t
 ## Mechanic
 
 - Each Monster has their own effect (skill) based on their Guilty Point(s) number.
+
+## Data
+
+### Monster Data
+
+- Monster Name
+- Monster Image
+- Guilty Point
+- Effect(s) / Skill(s)
